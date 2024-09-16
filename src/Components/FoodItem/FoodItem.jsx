@@ -11,12 +11,12 @@ const FoodItem = ({id,price,description,image,name}) => {
             <div className="food-item-img-container">
                 <img className="food-item-image" src={image} alt="" />
                 {!cartItems[id] ? (
-                    <img className="add" onClick={() => addToCart(id)} src={assets.addIconWhite} alt="" />
+                    <img className="add" onClick={() => addToCart(id)} src={assets.addWhite} alt="" />
                 ) : (
                     <div className="food-item-counter">
                         <img onClick={() =>removeFromCart(id)} src={assets.removeIconRed} alt="" />
                     <p>{cartItems[id]}</p>
-                        <img onClick={() =>addToCart(id)} src={assets.addIconGreen} alt="" />
+                        <img onClick={() =>addToCart(id)} src={assets.addGreen} alt="" />
                    </div> // This div seems unnecessary you might want to remove it
                 )}
             </div>

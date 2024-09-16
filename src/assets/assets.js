@@ -45,8 +45,8 @@ import food_30 from './food_30.png';
 import food_31 from './food_31.png';
 import food_32 from './food_32.png';
 
-import addIconWhite from '../assets/addIconWhite.png';
-import addIconGreen from '../assets/addIconGreen.png';
+import addGreen from '../assets/addGreen.png';
+import addWhite from '../assets/addWhite.png';
 import removeIconRed from '../assets/removeIconRed.png';
 import appStore from '../assets/appStore.png';
 import playStore from '../assets/playStore.png';
@@ -68,8 +68,8 @@ export const assets = {
     headerImg,
     searchIcon,
     ratingStarts,
-    addIconGreen,
-    addIconWhite,
+    addGreen,
+    addWhite,
     removeIconRed,
     appStore,
     playStore,
